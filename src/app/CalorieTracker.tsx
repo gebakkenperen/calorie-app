@@ -336,7 +336,7 @@ export default function CalorieTracker() {
                             type="button"
                             onClick={() => onQuickAdd(p)}
                             className="ml-3 grid h-9 w-9 place-items-center rounded-full bg-accent/15 text-accent ring-1 ring-accent/30 transition hover:bg-accent/20"
-                            aria-label={`Voeg ${p.name} toe}`
+                            aria-label={`Voeg ${p.name} toe`}
                             title="Toevoegen"
                           >
                             <span className="text-lg font-semibold leading-none">+</span>
